@@ -1,1 +1,9 @@
+#include <stdio.h>
 
+int main() {
+    char grade;
+    printf("Insert your level: ");
+    scanf("%c", &grade);
+    printf("Your level is %c.\n", grade);
+    return 0;
+}
