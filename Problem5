@@ -1,1 +1,11 @@
+#include <stdio.h> //stdio 사용하도록 선언 
 
+int main() {
+    float a = 5.0;   //실수형 변수 
+    float b = 2.0;  //실수형 변수 
+    float result; //실수형 변수 
+    
+    result = a / b; //나누기의 실수형 type에서 이루어져야 한다. 
+    printf("That 5 divided 2 is %f.\n", result);
+    return 0; //완전히 끝났다는 것을 알리기 위해 0은 컴퓨터에 반환 
+}
