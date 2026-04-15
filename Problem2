@@ -1,1 +1,9 @@
+#include <stdio.h>
 
+int main() {
+    float height;
+    printf("Insert your Ki: ");
+    scanf("%f", &height);
+    printf("Your Ki is %fcm.\n", height);
+    return 0;
+}
